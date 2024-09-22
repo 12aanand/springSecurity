@@ -1,7 +1,7 @@
-#Spring Security with JWT Authentication
+# Spring Security with JWT Authentication
 This repository demonstrates how to implement JWT-based authentication using Spring Security. The project provides secure APIs by authenticating users and generating JWTs for subsequent API requests.
 
-##Features
+## Features
 JWT Authentication: Secure APIs using stateless authentication with JWTs.
 User Authentication: Validate user credentials and issue JWT tokens upon successful login.
 Token-Based Authorization: Protect endpoints by verifying JWT tokens in the request headers.
@@ -13,7 +13,7 @@ Spring Security: Security framework to handle authentication and authorization.
 JWT (JSON Web Token): Used for stateless authentication.
 Maven: Project management and build automation tool.
 
-##How It Works
+## How It Works
 User Login: Users send a POST request with their credentials (username & password) to /login. Upon successful authentication, the server responds with a JWT token.
 
 JWT Token Usage: Clients must include the JWT token in the Authorization header (as Bearer <token>) for subsequent requests to access protected resources.
